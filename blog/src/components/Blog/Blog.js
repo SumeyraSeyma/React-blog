@@ -25,14 +25,14 @@ function Blog() {
             <img 
               src={post.image} 
               alt="Earth from Space"
-              className="w-full h-auto rounded-lg shadow-lg"
+              className="mb-5 h-[400px] w-full rounded-xl bg-no-repeat object-cover object-center transition-transform duration-200 ease-out hover:scale-[1.02]"
             />
             <h1 className="text-3xl font-bold mt-4 mb-2">{post.title}</h1>
-            <p className="text-gray-600 text-sm">
-              by <span className="font-semibold">{post.author}</span> on {post.date}
+            <p className="rgb(161 161 170/var(--tw-text-opacity)) text-sm">
+              by <span className="font-semibold text-cyan-200">{post.author}</span> on {post.date}
             </p>
             <hr className="my-4" />
-            <p className="text-gray-800 text-base leading-relaxed">{post.body}</p>
+            <p className="text-zinc-500 md:space-y-0 text-start dark:text-zinc-400">{post.body}</p>
           </div>
           )}
         </div>
