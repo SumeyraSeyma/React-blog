@@ -4,30 +4,36 @@
 	"userId": 1,
 	"id": 1,
 	"title": "Exploring the World's Natural Wonders: A Nature Lover's Journey",
-	"body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+	"author": "John Doe",
+	"authorAvatar": "https://imgix.cosmicjs.com/1b1b3b00-ff1e-11ed-8fca-9b0db64c9b86-alexander-andrews-6fPXl3l5YyA-unsplash.jpg?w=1400&auto=compression,format",
+	"body": "As someone who loves nature, there's nothing quite like the thrill of exploring the world's most beautiful landscapes. From snow-capped mountains to crystal-clear waters, there's no shortage of natural wonders to discover. So pack your bags, grab your hiking boots, and let's take a journey around the globe to explore some of the most breathtaking natural sights on earth."
 	},
 	{
+	"image":"https://imgix.cosmicjs.com/baff2ae0-ff1e-11ed-8fca-9b0db64c9b86-greg-rakozy-oMpAz-DN-9I-unsplash.jpg?w=1400&auto=compression,format",
 	"userId": 1,
 	"id": 2,
-	"title": "qui est esse",
+	"title": "Exploring the Wonders of Planet Earth",
 	"body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
 	},
 	{
+	"image":"https://imgix.cosmicjs.com/6c3e2770-fe43-11ed-a3a3-c3fa0772764a-927414.jpg?w=1400&auto=compression,format",
 	"userId": 1,
 	"id": 3,
-	"title": "ea molestias quasi exercitationem repellat qui ipsa sit aut",
+	"title": "The Importance of Biodiversity on Planet Earth",
 	"body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
 	},
 	{
+	"image":"https://imgix.cosmicjs.com/99fd6650-23f5-11e7-875c-3f5dc9c15c2b-beach.jpg?w=1400&auto=compression,format",
 	"userId": 1,
 	"id": 4,
-	"title": "eum et est occaecati",
+	"title": "Earth: The Ultimate Playground",
 	"body": "ullam et saepe reiciendis voluptatem adipisci\nsit amet autem assumenda provident rerum culpa\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\nquis sunt voluptatem rerum illo velit"
 	},
 	{
+	"image":"https://imgix.cosmicjs.com/ab9596a0-f674-11ed-87b8-b7104fcd2121-marcelo-villalobos-qH635BagHg-unsplash.jpg?w=1400&auto=compression,format",
 	"userId": 1,
 	"id": 5,
-	"title": "nesciunt quas odio",
+	"title": "Exploring the Earth: Adventures and Wonders from a Blogger's Point of View",
 	"body": "repudiandae veniam quaerat sunt sed\nalias aut fugiat sit autem sed est\nvoluptatem omnis possimus esse voluptatibus quis\nest aut tenetur dolor neque"
 	}
 	]
