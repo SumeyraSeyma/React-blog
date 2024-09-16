@@ -1,7 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, Children } from 'react';
 
 function Blog() {
   const [data, setData] = useState(null);
+  const [isLoading, setIsLoading] = useState(true);
+  const [expandedPostId, setExpandedPostId] = useState(null);
+  
 
   useEffect(() => {
     fetch('/blog.json')
@@ -11,10 +14,28 @@ function Blog() {
         }
         return response.json();
       })
-      .then(json => setData(json))
-      .catch(error => console.error('Error fetching data:', error));
+      .then(json => {
+        setData(json);
+        setIsLoading(false);
+      })
+      .catch(error => {
+        console.error('There has been a problem with your fetch operation:', error);
+        setIsLoading(false);
+      });
       console.log(data);
   }, []);
+
+  const toggleExpandPost = (id) => {
+    if (expandedPostId === id) {
+      setExpandedPostId(null); 
+    } else {
+      setExpandedPostId(id); 
+    }
+  };
+
+  if(isLoading) {
+    return <div>Loading...</div>
+  }
 
   return (
     <div>
@@ -23,16 +44,21 @@ function Blog() {
           {post.image && (
             <div className="max-w-4xl mx-auto p-5">
             <img 
-              src={post.image} 
-              alt="Earth from Space"
+              src={post.image}
               className="mb-5 h-[400px] w-full rounded-xl bg-no-repeat object-cover object-center transition-transform duration-200 ease-out hover:scale-[1.02]"
             />
             <h1 className="text-3xl font-bold mt-4 mb-2">{post.title}</h1>
-            <p className="rgb(161 161 170/var(--tw-text-opacity)) text-sm">
-              by <span className="font-semibold text-cyan-200">{post.author}</span> on {post.date}
-            </p>
             <hr className="my-4" />
-            <p className="text-zinc-500 md:space-y-0 text-start dark:text-zinc-400">{post.body}</p>
+            <p className="text-zinc-500 md:space-y-0 text-start dark:text-zinc-400">{post.body}
+            {expandedPostId === post.id ? post.body : `${post.body.substring(0, 100)}...`}
+            </p>
+            <button onClick={() => toggleExpandPost(post.id)} className="text-cyan-200 hover:text-cyan-400">
+            {expandedPostId === post.id ? 'Show Less' : 'Show More'}
+            </button>
+            <div className="flex items-center space-x-2 text-start text-sm m-4">
+            <img src={post.authorImage} alt="Author" className="h-10 w-10 rounded-full" />
+            <span>by <span className="font-semibold text-cyan-200">{post.author}</span> on {new Date(post.date).toLocaleDateString()}</span>
+          </div>
           </div>
           )}
         </div>
