@@ -38,6 +38,13 @@ function Blog() {
   }
 
   return (
+    <body>
+    <header className='sticky top-0 z-10 mx-auto bg-white/75 backdrop-blur-lg dark:bg-zinc-950/75'>
+      <div className='mx-auto flex w-full max-w-3xl flex-col items-center justify-between px-4 py-4 md:flex-row lg:px-0'>
+      <h1 className='italic text-3xl font-bold underline decoration-cyan-200 hover:decoration-blue-400'>Our Blue Marble</h1>
+      <span className="relative hidden text-lg tracking-wide text-zinc-500 dark:text-zinc-200 md:flex">Thoughts and images from our amazing planet.</span>
+    </div>
+    </header>
     <div>
       {data && data.map((post, index) => (
         <div key={index}>
@@ -64,6 +71,7 @@ function Blog() {
         </div>
       ))}
     </div>
+    </body>
   );
 }
 
