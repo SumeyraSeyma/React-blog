@@ -88,7 +88,7 @@ function Blog() {
               </div>
             </div>
             <div>
-            <Link to={`/posts/${post.title}`} className="text-cyan-200 hover:text-cyan-400">Keep Reading</Link>
+            <Link to={`/posts/${post.id}`} className="text-cyan-200 hover:text-cyan-400">Keep Reading</Link>
             </div>
           </div>
           )}

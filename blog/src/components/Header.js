@@ -1,6 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCanadianMapleLeaf } from '@fortawesome/free-brands-svg-icons';
+import { Link } from 'react-router-dom';
 
 function header() {
   return (
@@ -12,7 +13,7 @@ function header() {
           icon={faCanadianMapleLeaf}
           id='logo'
         />
-      <a href={`/`} className='italic text-cyan-400 text-3xl font-bold  decoration-blue-50 hover:decoration-blue-50'>Our Blue Marble</a>
+      <Link to={`/`} className='italic text-cyan-400 text-3xl font-bold  decoration-blue-50 hover:decoration-blue-50'>Our Blue Marble</Link>
       </div>
       <span className="relative hidden text-lg tracking-wide text-zinc-500 dark:text-zinc-200 md:flex">Thoughts and images from our amazing planet.</span>
     </div>
