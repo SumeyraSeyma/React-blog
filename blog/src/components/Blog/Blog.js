@@ -1,9 +1,13 @@
 import React, { useState, useEffect, Children } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCanadianMapleLeaf } from '@fortawesome/free-brands-svg-icons';
+import './Blog.css';
 
 function Blog() {
   const [data, setData] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
   const [expandedPostId, setExpandedPostId] = useState(null);
+  const [isSpinning, setIsSpinning] = useState(false);
   
 
   useEffect(() => {
@@ -37,11 +41,22 @@ function Blog() {
     return <div>Loading...</div>
   }
 
+  const toggleSpin = () => {
+    setIsSpinning(!isSpinning);
+  };
+
   return (
     <body>
     <header className='sticky top-0 z-10 mx-auto bg-white/75 backdrop-blur-lg dark:bg-zinc-950/75'>
       <div className='mx-auto flex w-full max-w-3xl flex-col items-center justify-between px-4 py-4 md:flex-row lg:px-0'>
-      <h1 className='italic text-blue-400 text-3xl font-bold underline decoration-blue-50 hover:decoration-blue-50'>Our Blue Marble</h1>
+        <div className='flex'>
+        <FontAwesomeIcon
+          className='size-10'
+          icon={faCanadianMapleLeaf}
+          id='logo'
+        />
+      <h1 className='italic text-cyan-400 text-3xl font-bold underline decoration-blue-50 hover:decoration-blue-50'>Our Blue Marble</h1>
+      </div>
       <span className="relative hidden text-lg tracking-wide text-zinc-500 dark:text-zinc-200 md:flex">Thoughts and images from our amazing planet.</span>
     </div>
     </header>
@@ -70,8 +85,8 @@ function Blog() {
               </div>
               <div className="flex flex-wrap">
                 {post.article && post.article.map((article, idx) => (
-                  <div key={idx} className="mr-4">
-                    <span className="text-base font-bold">{article.title}</span>
+                  <div key={idx} className="mr-4 flex rounded-full border border-zinc-200 bg-zinc-50 px-3 py-2 dark:border-zinc-700 dark:bg-zinc-900">
+                    <span className="pt-[3px] text-xs uppercase leading-none text-cyan-600 dark:text-cyan-300 font-semibold">{article.title}</span>
                   </div>
                 ))}
               </div>
