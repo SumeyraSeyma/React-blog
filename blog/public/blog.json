@@ -7,7 +7,15 @@
 	"title": "Exploring the World's Natural Wonders: A Nature Lover's Journey",
 	"author": "John Doe",
 	"authorImage": "https://imgix.cosmicjs.com/9a0a85b0-23f5-11e7-875c-3f5dc9c15c2b-male.jpg?w=100&auto=format,compression",
-	"body": "As someone who loves nature, there's nothing quite like the thrill of exploring the world's most beautiful landscapes. From snow-capped mountains to crystal-clear waters, there's no shortage of natural wonders to discover. So pack your bags, grab your hiking boots, and let's take a journey around the globe to explore some of the most breathtaking natural sights on earth."
+	"body": "As someone who loves nature, there's nothing quite like the thrill of exploring the world's most beautiful landscapes. From snow-capped mountains to crystal-clear waters, there's no shortage of natural wonders to discover. So pack your bags, grab your hiking boots, and let's take a journey around the globe to explore some of the most breathtaking natural sights on earth.",
+	"article":[
+		{
+			"title":"ENVIROMENT"
+		},
+		{
+			"title":"CLIMATE"
+		}
+	]
 	},
 	{
 	"image":"https://imgix.cosmicjs.com/baff2ae0-ff1e-11ed-8fca-9b0db64c9b86-greg-rakozy-oMpAz-DN-9I-unsplash.jpg?w=1400&auto=compression,format",
@@ -17,7 +25,15 @@
 	"title": "Exploring the Wonders of Planet Earth",
 	"author": "Jane Doe",
 	"authorImage":"https://imgix.cosmicjs.com/99f48cb0-23f5-11e7-875c-3f5dc9c15c2b-female.jpg?w=100&auto=format,compression",
-	"body": "Planet Earth is a magnificent place, full of wonders and mysteries waiting to be discovered. From the depths of the oceans to the highest peaks of the mountains, there is always something new and exciting to explore. In this blog post, we'll take a closer look at some of the most fascinating aspects of our planet."
+	"body": "Planet Earth is a magnificent place, full of wonders and mysteries waiting to be discovered. From the depths of the oceans to the highest peaks of the mountains, there is always something new and exciting to explore. In this blog post, we'll take a closer look at some of the most fascinating aspects of our planet.",
+	"article":[
+		{
+			"title":"DEEP THOUGHTS"
+		},
+		{
+			"title":"EXPLORING"
+		}
+	]
 	},
 	{
 	"image":"https://imgix.cosmicjs.com/6c3e2770-fe43-11ed-a3a3-c3fa0772764a-927414.jpg?w=1400&auto=compression,format",
@@ -27,7 +43,15 @@
 	"title": "The Importance of Biodiversity on Planet Earth",
 	"author": "Jane Doe",
 	"authorImage":"https://imgix.cosmicjs.com/99f48cb0-23f5-11e7-875c-3f5dc9c15c2b-female.jpg?w=100&auto=format,compression",
-	"body": "Biodiversity refers to the variety of life on Earth, including all of the different species of plants, animals, and microorganisms. It is one of the most important aspects of our planet, and it plays a crucial role in maintaining the health and balance of ecosystems. In this blog post, we'll take a closer look at the importance of biodiversity on planet Earth."
+	"body": "Biodiversity refers to the variety of life on Earth, including all of the different species of plants, animals, and microorganisms. It is one of the most important aspects of our planet, and it plays a crucial role in maintaining the health and balance of ecosystems. In this blog post, we'll take a closer look at the importance of biodiversity on planet Earth.",
+	"article":[
+		{
+			"title":"ECOLOGY"
+		},
+		{
+			"title":"DEEP THOUGHTS"
+		}
+	]
 	},
 	{
 	"image":"https://imgix.cosmicjs.com/99fd6650-23f5-11e7-875c-3f5dc9c15c2b-beach.jpg?w=1400&auto=compression,format",
@@ -37,15 +61,34 @@
 	"title": "Earth: The Ultimate Playground",
 	"author": "Jane Doe",
 	"authorImage":"https://imgix.cosmicjs.com/99f48cb0-23f5-11e7-875c-3f5dc9c15c2b-female.jpg?w=100&auto=format,compression",
-	"body": "Earth is a remarkable planet, full of natural wonders and opportunities for adventure. From the highest mountains to the deepest oceans, there is no shortage of places to explore and activities to engage in."
+	"body": "Earth is a remarkable planet, full of natural wonders and opportunities for adventure. From the highest mountains to the deepest oceans, there is no shortage of places to explore and activities to engage in.",
+	"article":[
+		{
+			"title":"CLIMATE"
+		},
+		{
+			"title":"ENVIROMENT"
+		}
+	]
 	},
 	{
 	"image":"https://imgix.cosmicjs.com/ab9596a0-f674-11ed-87b8-b7104fcd2121-marcelo-villalobos-qH635BagHg-unsplash.jpg?w=1400&auto=compression,format",
 	"userId": 1,
 	"id": 5,
+	"date":"Dec 5, 2022",
 	"title": "Exploring the Earth: Adventures and Wonders from a Blogger's Point of View",
 	"author": "John Doe",
 	"authorImage": "https://imgix.cosmicjs.com/9a0a85b0-23f5-11e7-875c-3f5dc9c15c2b-male.jpg?w=100&auto=format,compression",
-	"body": "Welcome to my travel blog, where I share my adventures exploring the beautiful planet we call home. Today, I want to talk about the incredible experience of exploring the Earth from a blogger's point of view."
+	"body": "Welcome to my travel blog, where I share my adventures exploring the beautiful planet we call home. Today, I want to talk about the incredible experience of exploring the Earth from a blogger's point of view.",
+	"article":[
+		{
+			"title":"DEEP THOUGHTS"
+		},
+		{
+			"title":"EXPLORING"
+		}
+	]
+	},
+	{
 	}
 	]
