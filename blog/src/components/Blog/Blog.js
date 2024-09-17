@@ -62,21 +62,20 @@ function Blog() {
             <button onClick={() => toggleExpandPost(post.id)} className="text-cyan-200 hover:text-cyan-400">
             {expandedPostId === post.id ? 'Show Less' : 'Show More'}
             </button>
-            <div className="flex items-center space-x-2 text-start text-sm m-4">
-            <img src={post.authorImage} alt="Author" className="h-10 w-10 rounded-full" />
-            <span>by <span className="font-semibold text-cyan-200">{post.author}</span> on {post.date}</span>
-          </div>
-          <div>
             <hr className="my-4" />
-            {
-              post.article.map((article, index) => (
-                <div key={index}>
-                  <h2 className="text-2xl font-bold mt-4 mb-2">{article.title}</h2> 
-                </div>
-              ))
-              
-            }
-          </div>
+            <div className="flex items-center justify-between">
+              <div className="flex items-center space-x-2 text-sm">
+                <img src={post.authorImage} alt="Author" className="h-10 w-10 rounded-full" />
+                <span>by <span className="font-semibold text-cyan-200">{post.author}</span> on {post.date}</span>
+              </div>
+              <div className="flex flex-wrap">
+                {post.article && post.article.map((article, idx) => (
+                  <div key={idx} className="mr-4">
+                    <span className="text-base font-bold">{article.title}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
           )}
         </div>
