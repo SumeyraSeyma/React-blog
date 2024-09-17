@@ -64,7 +64,7 @@ function Blog() {
           icon={faCanadianMapleLeaf}
           id='logo'
         />
-      <h1 className='italic text-cyan-400 text-3xl font-bold underline decoration-blue-50 hover:decoration-blue-50'>Our Blue Marble</h1>
+      <h1 className='italic text-cyan-400 text-3xl font-bold  decoration-blue-50 hover:decoration-blue-50'>Our Blue Marble</h1>
       </div>
       <span className="relative hidden text-lg tracking-wide text-zinc-500 dark:text-zinc-200 md:flex">Thoughts and images from our amazing planet.</span>
     </div>

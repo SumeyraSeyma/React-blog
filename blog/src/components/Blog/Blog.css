@@ -1,13 +1,17 @@
-
-@keyframes spin {
-    from {
-      transform: rotateY(0deg);
+@media (min-width: 801px) { 
+    #logo {
+      animation: spin 2s linear infinite;
     }
-    to {
-      transform: rotateY(360deg);
+  
+    @keyframes spin {
+      from {
+        transform: rotateY(0deg);
+      }
+      to {
+        transform: rotateY(360deg);
+      }
     }
   }
-  
   #logo {
     animation: spin 2s linear infinite;
     will-change: transform;
