@@ -2,6 +2,7 @@ import React, { useState, useEffect, Children } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCanadianMapleLeaf } from '@fortawesome/free-brands-svg-icons';
 import './Blog.css';
+import { throttle } from 'lodash';
 
 function Blog() {
   const [data, setData] = useState(null);
@@ -11,22 +12,34 @@ function Blog() {
   
 
   useEffect(() => {
-    fetch('/blog.json')
-      .then(response => {
+    async function fetchData() {
+      try {
+        const response = await fetch('/blog.json');
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
-        return response.json();
-      })
-      .then(json => {
+        const json = await response.json();
         setData(json);
         setIsLoading(false);
-      })
-      .catch(error => {
+      } catch (error) {
         console.error('There has been a problem with your fetch operation:', error);
         setIsLoading(false);
-      });
-      console.log(data);
+      }
+    }
+  
+    fetchData();
+  }, []);
+
+  useEffect(() => {
+    const handleScroll = throttle(() => {
+      setIsSpinning(window.scrollY > 100);
+    }, 100);
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
   }, []);
 
   const toggleExpandPost = (id) => {
