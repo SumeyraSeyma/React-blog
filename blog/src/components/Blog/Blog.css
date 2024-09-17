@@ -10,4 +10,5 @@
   
   #logo {
     animation: spin 2s linear infinite;
+    will-change: transform;
   }
