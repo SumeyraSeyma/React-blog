@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom';
 function Blog() {
   const [data, setData] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
-  const [expandedPostId, setExpandedPostId] = useState(null);
   const [isSpinning, setIsSpinning] = useState(false);
   
 
@@ -41,14 +40,6 @@ function Blog() {
     };
   }, []);
 
-  const toggleExpandPost = (id) => {
-    if (expandedPostId === id) {
-      setExpandedPostId(null); 
-    } else {
-      setExpandedPostId(id); 
-    }
-  };
-
   if(isLoading) {
     return <div>Loading...</div>
   }
@@ -68,11 +59,7 @@ function Blog() {
             <h1 className="text-3xl font-bold mt-4 mb-2">{post.title}</h1>
             <hr className="my-4" />
             <p className="text-zinc-500 md:space-y-0 text-start dark:text-zinc-400">{post.body}
-            {expandedPostId === post.id ? post.body : `${post.body.substring(0, 100)}...`}
             </p>
-            <button onClick={() => toggleExpandPost(post.id)} className="text-cyan-200 hover:text-cyan-400">
-            {expandedPostId === post.id ? 'Show Less' : 'Show More'}
-            </button>
             <hr className="my-4" />
             <div className="flex items-center justify-between">
               <div className="flex items-center space-x-2 text-sm">
