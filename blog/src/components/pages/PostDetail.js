@@ -31,8 +31,8 @@ function PostDetail() {
               src={post.image}
               className="mb-5 h-[720px] w-full bg-no-repeat object-cover object-center"
             />
-            <h1 className="text-2xl font-bold text-center">{post.title}</h1>
             <div className="max-w-4xl mx-auto p-5">
+              <h1 className="text-2xl mb-2 font-bold text-center">{post.title}</h1>
               <p className="text-zinc-500 md:space-y-0 text-start dark:text-zinc-400">{post.body}</p>
             </div>
             {post.detail && post.detail.map((detail, index) => (
@@ -40,7 +40,7 @@ function PostDetail() {
                 <h2 className="text-xl font-bold mt-4 mb-2">{detail.title}</h2>
                 <div className="text-zinc-500 md:space-y-0 text-start dark:text-zinc-400">
                   {detail.body.split("\n\n").map((paragraph, pIndex) => (
-                    <p className='mb-4' key={pIndex}>{paragraph}</p>
+                    <p style={{ marginBottom: '16px' }} key={pIndex}>{paragraph}</p>
                   ))}
                 </div>
               </div>
