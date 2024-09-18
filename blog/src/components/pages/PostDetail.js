@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowLeftLong } from '@fortawesome/free-solid-svg-icons';
 
 function PostDetail() {
   const [data, setData] = useState(null);
@@ -32,7 +35,12 @@ function PostDetail() {
               className="mb-5 h-[720px] w-full bg-no-repeat object-cover object-center"
             />
             <div className="max-w-4xl mx-auto p-5">
-              <h1 className="text-3xl mb-2 font-bold text-start">{post.title}</h1>
+              <div className='flex'>
+                <Link to={"/"}>
+                <FontAwesomeIcon icon={faArrowLeftLong} className='mr-4 flex rounded-full border border-zinc-200 bg-zinc-50 px-3 py-2 dark:border-zinc-700 dark:bg-zinc-900' />
+                </Link>
+                <h1 className="text-3xl mb-2 font-bold text-start">{post.title}</h1>
+              </div>
               <div className="flex items-center justify-between mt-4">
               <div className="flex items-center space-x-2 text-sm">
                 <img src={post.authorImage} alt="Author" className="h-10 w-10 rounded-full" />

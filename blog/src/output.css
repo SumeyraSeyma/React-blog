@@ -571,6 +571,11 @@ video {
   margin-bottom: 1rem;
 }
 
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -609,6 +614,18 @@ video {
 
 .mt-3 {
   margin-top: 0.75rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
 }
 
 .flex {
@@ -779,6 +796,10 @@ video {
 
 .align-middle {
   vertical-align: middle;
+}
+
+.align-bottom {
+  vertical-align: bottom;
 }
 
 .text-3xl {

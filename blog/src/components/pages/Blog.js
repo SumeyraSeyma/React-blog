@@ -3,7 +3,7 @@ import './Blog.css';
 import { throttle } from 'lodash';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { faArrowRightLong } from '@fortawesome/free-solid-svg-icons';
 
 function Blog() {
   const [data, setData] = useState(null);
@@ -64,8 +64,7 @@ function Blog() {
             <hr className="my-4" />
             <p className="text-zinc-500 md:space-y-0 text-start dark:text-zinc-400">{post.body}
             </p>
-            <hr className="my-4" />
-            <div className="flex items-center justify-between">
+            <div className="flex items-center justify-between mt-8">
               <div className="flex items-center space-x-2 text-sm">
                 <img src={post.authorImage} alt="Author" className="h-10 w-10 rounded-full" />
                 <span>by <span className="font-semibold text-indigo-200">{post.author}</span> on {post.date}</span>
@@ -81,7 +80,7 @@ function Blog() {
             <div>
             <Link to={`/posts/${post.id}`} className="text-indigo-200 hover:text-indigo-400 ">
                 Continue Reading 
-                <FontAwesomeIcon icon={faArrowRight} className='ml-1 mt-3' />
+                <FontAwesomeIcon icon={faArrowRightLong} className='ml-1 mt-8 align-bottom' />
             </Link>
             </div>
           </div>
