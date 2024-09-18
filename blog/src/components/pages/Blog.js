@@ -54,10 +54,12 @@ function Blog() {
         <div key={index}>
           {post.image && (
             <div className="max-w-4xl mx-auto p-5">
+              <Link to={`/posts/${post.id}`}>
             <img 
               src={post.image}
               className="mb-5 h-[400px] w-full rounded-xl bg-no-repeat object-cover object-center transition-transform duration-200 ease-out hover:scale-[1.02]"
             />
+            </Link>
             <h1 className="text-3xl font-bold mt-4 mb-2">{post.title}</h1>
             <hr className="my-4" />
             <p className="text-zinc-500 md:space-y-0 text-start dark:text-zinc-400">{post.body}
