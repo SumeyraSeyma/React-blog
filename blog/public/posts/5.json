@@ -1,0 +1,20 @@
+[
+	{
+        "image":"https://imgix.cosmicjs.com/ab9596a0-f674-11ed-87b8-b7104fcd2121-marcelo-villalobos-qH635BagHg-unsplash.jpg?w=1400&auto=compression,format",
+        "userId": 1,
+        "id": 5,
+        "date":"Dec 5, 2022",
+        "title": "Exploring the Earth: Adventures and Wonders from a Blogger's Point of View",
+        "author": "John Doe",
+        "authorImage": "https://imgix.cosmicjs.com/9a0a85b0-23f5-11e7-875c-3f5dc9c15c2b-male.jpg?w=100&auto=format,compression",
+        "body": "Welcome to my travel blog, where I share my adventures exploring the beautiful planet we call home. Today, I want to talk about the incredible experience of exploring the Earth from a blogger's point of view.",
+        "article":[
+            {
+                "title":"DEEP THOUGHTS"
+            },
+            {
+                "title":"EXPLORING"
+            }
+        ]
+        }
+]

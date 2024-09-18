@@ -1,0 +1,20 @@
+[
+	{
+        "image":"https://imgix.cosmicjs.com/6c3e2770-fe43-11ed-a3a3-c3fa0772764a-927414.jpg?w=1400&auto=compression,format",
+        "userId": 1,
+        "id": 3,
+        "date":"Mar 15, 2023",
+        "title": "The Importance of Biodiversity on Planet Earth",
+        "author": "Jane Doe",
+        "authorImage":"https://imgix.cosmicjs.com/99f48cb0-23f5-11e7-875c-3f5dc9c15c2b-female.jpg?w=100&auto=format,compression",
+        "body": "Biodiversity refers to the variety of life on Earth, including all of the different species of plants, animals, and microorganisms. It is one of the most important aspects of our planet, and it plays a crucial role in maintaining the health and balance of ecosystems. In this blog post, we'll take a closer look at the importance of biodiversity on planet Earth.",
+        "article":[
+            {
+                "title":"ECOLOGY"
+            },
+            {
+                "title":"DEEP THOUGHTS"
+            }
+        ]
+        }
+]

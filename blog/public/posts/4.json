@@ -1,0 +1,20 @@
+[
+	{
+        "image":"https://imgix.cosmicjs.com/99fd6650-23f5-11e7-875c-3f5dc9c15c2b-beach.jpg?w=1400&auto=compression,format",
+        "userId": 1,
+        "id": 4,
+        "date":"Feb 3, 2023",
+        "title": "Earth: The Ultimate Playground",
+        "author": "Jane Doe",
+        "authorImage":"https://imgix.cosmicjs.com/99f48cb0-23f5-11e7-875c-3f5dc9c15c2b-female.jpg?w=100&auto=format,compression",
+        "body": "Earth is a remarkable planet, full of natural wonders and opportunities for adventure. From the highest mountains to the deepest oceans, there is no shortage of places to explore and activities to engage in.",
+        "article":[
+            {
+                "title":"CLIMATE"
+            },
+            {
+                "title":"ENVIROMENT"
+            }
+        ]
+        }
+]

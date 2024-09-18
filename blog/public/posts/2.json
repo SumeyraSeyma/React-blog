@@ -15,6 +15,16 @@
             {
                 "title":"EXPLORING"
             }
-        ]
+        ],
+        "detail":[
+		{
+			"title":"The Oceans",
+			"body":"Covering more than 70% of the Earth's surface, the oceans are one of the most important and fascinating parts of our planet. They are home to an incredible variety of life, from tiny plankton to massive whales. The oceans are also responsible for regulating the Earth's climate, absorbing heat and carbon dioxide from the atmosphere."
+		},
+		{
+			"title":"The Atmosphere",
+			"body":""
+		}
+	]
         }
 ]
