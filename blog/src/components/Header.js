@@ -13,7 +13,7 @@ function header() {
           icon={faCanadianMapleLeaf}
           id='logo'
         />
-      <Link to={`/`} className='italic text-cyan-400 text-3xl font-bold  decoration-blue-50 hover:decoration-blue-50'>Our Blue Marble</Link>
+      <Link to={`/`} className='italic text-indigo-300 text-3xl font-bold  decoration-blue-50 hover:decoration-blue-50'>Our Blue Marble</Link>
       </div>
       <span className="relative hidden text-lg tracking-wide text-zinc-500 dark:text-zinc-200 md:flex">Thoughts and images from our amazing planet.</span>
     </div>

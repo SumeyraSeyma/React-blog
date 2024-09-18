@@ -2,6 +2,8 @@ import React, { useState, useEffect, Children } from 'react';
 import './Blog.css';
 import { throttle } from 'lodash';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 function Blog() {
   const [data, setData] = useState(null);
@@ -64,18 +66,21 @@ function Blog() {
             <div className="flex items-center justify-between">
               <div className="flex items-center space-x-2 text-sm">
                 <img src={post.authorImage} alt="Author" className="h-10 w-10 rounded-full" />
-                <span>by <span className="font-semibold text-cyan-200">{post.author}</span> on {post.date}</span>
+                <span>by <span className="font-semibold text-indigo-200">{post.author}</span> on {post.date}</span>
               </div>
               <div className="flex flex-wrap">
                 {post.article && post.article.map((article, idx) => (
                   <div key={idx} className="mr-4 flex rounded-full border border-zinc-200 bg-zinc-50 px-3 py-2 dark:border-zinc-700 dark:bg-zinc-900">
-                    <span className="pt-[3px] text-xs uppercase leading-none text-cyan-600 dark:text-cyan-300 font-semibold">{article.title}</span>
+                    <span className="pt-[3px] text-xs uppercase leading-none text-indigo-600 dark:text-indigo-300 font-semibold">{article.title}</span>
                   </div>
                 ))}
               </div>
             </div>
             <div>
-            <Link to={`/posts/${post.id}`} className="text-cyan-200 hover:text-cyan-400">Keep Reading</Link>
+            <Link to={`/posts/${post.id}`} className="text-indigo-200 hover:text-indigo-400 ">
+                Continue Reading 
+                <FontAwesomeIcon icon={faArrowRight} className='ml-1 mt-3' />
+            </Link>
             </div>
           </div>
           )}
