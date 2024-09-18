@@ -1,0 +1,20 @@
+[
+	{
+        "image":"https://imgix.cosmicjs.com/baff2ae0-ff1e-11ed-8fca-9b0db64c9b86-greg-rakozy-oMpAz-DN-9I-unsplash.jpg?w=1400&auto=compression,format",
+        "userId": 1,
+        "id": 2,
+        "date":"Apr 27, 2023",
+        "title": "Exploring the Wonders of Planet Earth",
+        "author": "Jane Doe",
+        "authorImage":"https://imgix.cosmicjs.com/99f48cb0-23f5-11e7-875c-3f5dc9c15c2b-female.jpg?w=100&auto=format,compression",
+        "body": "Planet Earth is a magnificent place, full of wonders and mysteries waiting to be discovered. From the depths of the oceans to the highest peaks of the mountains, there is always something new and exciting to explore. In this blog post, we'll take a closer look at some of the most fascinating aspects of our planet.",
+        "article":[
+            {
+                "title":"DEEP THOUGHTS"
+            },
+            {
+                "title":"EXPLORING"
+            }
+        ]
+        }
+]

@@ -1,0 +1,20 @@
+[
+	{
+	"image":"https://imgix.cosmicjs.com/bab6b030-ff1e-11ed-8fca-9b0db64c9b86-nasa-vhSz50AaFAs-unsplash.jpg?w=1400&auto=compression,format",
+	"userId": 1,
+	"id": 1,
+	"date":"May 30, 2023",
+	"title": "Exploring the World's Natural Wonders: A Nature Lover's Journey",
+	"author": "John Doe",
+	"authorImage": "https://imgix.cosmicjs.com/9a0a85b0-23f5-11e7-875c-3f5dc9c15c2b-male.jpg?w=100&auto=format,compression",
+	"body": "As someone who loves nature, there's nothing quite like the thrill of exploring the world's most beautiful landscapes. From snow-capped mountains to crystal-clear waters, there's no shortage of natural wonders to discover. So pack your bags, grab your hiking boots, and let's take a journey around the globe to explore some of the most breathtaking natural sights on earth.",
+	"article":[
+		{
+			"title":"ENVIROMENT"
+		},
+		{
+			"title":"CLIMATE"
+		}
+	]
+	}
+	]

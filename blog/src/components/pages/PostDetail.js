@@ -2,10 +2,10 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 
 function PostDetail() {
+  const [data, setData] = useState(null);
   const { id } = useParams();
-  const [post, setPost] = useState(null);
 
-    useEffect(() => {
+  useEffect(() => {
     async function fetchData() {
       try {
         const response = await fetch(`/posts/${id}.json`);
@@ -13,20 +13,27 @@ function PostDetail() {
           throw new Error('Network response was not ok');
         }
         const json = await response.json();
-        setPost(json);
+        setData(json);
       } catch (error) {
         console.error('There has been a problem with your fetch operation:', error);
       }
     }
-    });
-
-  if (!post) {
-    return <div>Loading...</div>;
-  }
+  
+    fetchData();
+  }, [id]);
 
   return (
     <div>
-      <h1 className='text-blue-200'>{post.title}</h1>
+      {
+        data && data.map((post, index) => (
+          <div key={index}>
+            <img 
+              src={post.image}
+              className="mb-5 h-[400px] w-full rounded-xl bg-no-repeat object-cover object-center transition-transform duration-200 ease-out hover:scale-[1.02]"
+            />
+          </div>
+        ))
+      }
     </div>
   );
 }
