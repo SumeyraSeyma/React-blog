@@ -657,12 +657,20 @@ video {
   height: 20rem;
 }
 
+.h-\[200px\] {
+  height: 200px;
+}
+
 .w-10 {
   width: 2.5rem;
 }
 
 .w-full {
   width: 100%;
+}
+
+.w-\[200px\] {
+  width: 200px;
 }
 
 .max-w-3xl {
@@ -928,6 +936,10 @@ video {
 
 .decoration-blue-50 {
   text-decoration-color: #eff6ff;
+}
+
+.filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .backdrop-blur-lg {

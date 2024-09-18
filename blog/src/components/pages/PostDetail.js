@@ -7,6 +7,7 @@ import { faArrowLeftLong } from '@fortawesome/free-solid-svg-icons';
 function PostDetail() {
   const [data, setData] = useState(null);
   const { id } = useParams();
+  const [suggestedPosts, setSuggestedPosts] = useState([]);
 
   useEffect(() => {
     async function fetchData() {
@@ -24,6 +25,14 @@ function PostDetail() {
   
     fetchData();
   }, [id]);
+
+  useEffect(() => {
+    console.log(data);
+    if (data) {
+      const filteredPosts = data.filter(post => post.id !== parseInt(id));
+      setSuggestedPosts(filteredPosts);
+    }
+  }, [data, id]);
 
   return (
     <div>
@@ -68,6 +77,22 @@ function PostDetail() {
               </div>
             ))  
             }
+            <div className='max-w-4xl mx-auto p-5'>
+              <h2 className="text-xl font-bold mt-4 mb-2">Suggested Posts</h2>
+              <div className="flex flex-wrap">
+                {suggestedPosts.map((post, index) => (
+                  <div key={index} className="mr-4 mb-4">
+                    <Link to={`/posts/${post.id}`}>
+                      <img 
+                        src={post.image}
+                        className="h-[200px] w-[200px] rounded-xl bg-no-repeat object-cover object-center transition-transform duration-200 ease-out hover:scale-[1.02]"
+                      />
+                    </Link>
+                    <h3 className="text-lg font-semibold mt-2">{post.title}</h3>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
         ))
       }
