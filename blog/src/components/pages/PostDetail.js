@@ -8,6 +8,14 @@ function PostDetail() {
   const [data, setData] = useState(null);
   const { id } = useParams();
   const [suggestedPosts, setSuggestedPosts] = useState([]);
+  const [titLimit, setTitLimit] = useState(36);
+
+  const truncateText = (text, limit) => {
+    if (text && text.length > limit) {
+      return text.substring(0, limit) + '...';
+    }
+    return text;
+  };
 
   useEffect(() => {
     async function fetchData() {
@@ -101,7 +109,7 @@ function PostDetail() {
                         className="h-[200px] w-[200px] rounded-xl bg-no-repeat object-cover object-center transition-transform duration-200 ease-out hover:scale-[1.02]"
                       />
                     </Link>
-                    <h3 className="text-lg font-semibold mt-2">{post.title}</h3>
+                    <h3 className="text-lg font-semibold mt-2">{truncateText(post.title, titLimit)}</h3>
                   </div>
                 ))}
               </div>
