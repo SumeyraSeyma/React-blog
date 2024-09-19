@@ -119,6 +119,12 @@ function PostDetail() {
                       />
                     </Link>
                     <h3 className="text-lg font-semibold mt-2">{truncateText(post.title, titLimit)}</h3>
+                    <div className="flex items-center justify-between mt-8">
+                      <div className="flex items-center space-x-2 text-sm">
+                        <img src={post.authorImage} alt="Author" className="h-10 w-10 rounded-full" />
+                        <span>by <span className="font-semibold text-indigo-200">{post.author}</span> on {post.date}</span>
+                      </div>
+                    </div>
                   </div>
                 ))}
               </div>
