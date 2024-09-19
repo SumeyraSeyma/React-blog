@@ -34,6 +34,14 @@ function PostDetail() {
     fetchData();
   }, [id]);
 
+  function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+}
+
+
   useEffect(() => {
     async function fetchSuggestedPosts() {
       try {
@@ -44,6 +52,7 @@ function PostDetail() {
         const json = await response.json();
         const currentId = parseInt(id);
         const posts = json.filter((post) => post.id !== currentId);
+        shuffleArray(posts);
         const limitedPosts = posts.slice(0, 2);
         setSuggestedPosts(limitedPosts);
       } catch (error) {
