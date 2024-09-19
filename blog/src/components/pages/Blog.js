@@ -4,12 +4,13 @@ import { throttle } from 'lodash';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRightLong } from '@fortawesome/free-solid-svg-icons';
+import Header from '../Header';
 
-function Blog() {
+function Blog({ searchTerm, selectedCategory }) {
   const [data, setData] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
   const [isSpinning, setIsSpinning] = useState(false);
-  
+
 
   useEffect(() => {
     async function fetchData() {
@@ -42,15 +43,34 @@ function Blog() {
     };
   }, []);
 
+  const filteredPosts = data
+  ? data
+      .filter((post) => {
+        return (
+          post.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+          post.body.toLowerCase().includes(searchTerm.toLowerCase()) ||
+          post.article.some((article) =>
+            article.title.toLowerCase().includes(searchTerm.toLowerCase())
+          )
+        );
+      })
+      .filter((post) =>
+        selectedCategory === 'All' || post.category === selectedCategory // post.article yerine post.category
+      )
+  : [];
+
+  if (isLoading) {
+    return <div>Loading...</div>;
+  }
+
   if(isLoading) {
     return <div>Loading...</div>
   }
 
   return (
     <body>
-    
     <div>
-      {data && data.map((post, index) => (
+      {data && filteredPosts.map((post, index) => (
         <div key={index}>
           {post.image && (
             <div className="max-w-4xl mx-auto p-5">
