@@ -3,12 +3,19 @@ import { useParams } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeftLong } from '@fortawesome/free-solid-svg-icons';
+import { useLocation } from 'react-router-dom';
 
 function PostDetail() {
   const [data, setData] = useState(null);
   const { id } = useParams();
   const [suggestedPosts, setSuggestedPosts] = useState([]);
   const [titLimit, setTitLimit] = useState(36);
+  const {pathname} = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+  
 
   const truncateText = (text, limit) => {
     if (text && text.length > limit) {
