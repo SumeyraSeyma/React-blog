@@ -5,6 +5,7 @@ import { Route, Routes } from 'react-router-dom';
 import NotFoundPage from './components/pages/NotFoundPage';
 import Header from './components/Header';
 import PostDetail from './components/pages/PostDetail';
+import Author from './components/pages/Author';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Route path="/" element={<Blog />}/>
       <Route path="/posts/:id" element={<PostDetail />} />
       <Route path='*' element={<NotFoundPage/>} />
+      <Route path="/authors/:authorName" element={<Author />} />
     </Routes>
     </div>
   );

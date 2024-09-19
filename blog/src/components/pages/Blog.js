@@ -66,8 +66,15 @@ function Blog() {
             </p>
             <div className="flex items-center justify-between mt-8">
               <div className="flex items-center space-x-2 text-sm">
+                <Link to={`/authors/${post.author}`}>
                 <img src={post.authorImage} alt="Author" className="h-10 w-10 rounded-full" />
-                <span>by <span className="font-semibold text-indigo-200">{post.author}</span> on {post.date}</span>
+                </Link>
+                
+                <span>
+                <Link to={`/authors/${post.author}`}>
+                  by <span className="font-semibold text-indigo-200">{post.author} </span>
+                </Link>
+                 on {post.date}</span>
               </div>
               <div className="flex flex-wrap">
                 {post.article && post.article.map((article, idx) => (

@@ -80,10 +80,16 @@ function PostDetail() {
                 <h1 className="text-3xl mb-2 font-bold text-start">{post.title}</h1>
               </div>
               <div className="flex items-center justify-between mt-4">
-              <div className="flex items-center space-x-2 text-sm">
-                <img src={post.authorImage} alt="Author" className="h-10 w-10 rounded-full" />
-                <span>by <span className="font-semibold text-indigo-200">{post.author}</span> on {post.date}</span>
-              </div>
+                <div className="flex items-center space-x-2 text-sm">
+                  <Link to={`/authors/${post.author}`}>
+                    <img src={post.authorImage} alt="Author" className="h-10 w-10 rounded-full" />
+                  </Link>
+                    <span>
+                      <Link to={`/authors/${post.author}`}>
+                        by <span className="font-semibold text-indigo-200">{post.author} </span>
+                      </Link>
+                        on {post.date}</span>
+                </div>
               <div className="flex flex-wrap">
                 {post.article && post.article.map((article, idx) => (
                   <div key={idx} className="mr-4 flex rounded-full border border-zinc-200 bg-zinc-50 px-3 py-2 dark:border-zinc-700 dark:bg-zinc-900">
@@ -120,10 +126,16 @@ function PostDetail() {
                     </Link>
                     <h3 className="text-lg font-semibold mt-2">{truncateText(post.title, titLimit)}</h3>
                     <div className="flex items-center justify-between mt-8">
-                      <div className="flex items-center space-x-2 text-sm">
+                    <div className="flex items-center space-x-2 text-sm">
+                      <Link to={`/authors/${post.author}`}>
                         <img src={post.authorImage} alt="Author" className="h-10 w-10 rounded-full" />
-                        <span>by <span className="font-semibold text-indigo-200">{post.author}</span> on {post.date}</span>
-                      </div>
+                      </Link>
+                      <span>
+                        <Link to={`/authors/${post.author}`}>
+                          by <span className="font-semibold text-indigo-200">{post.author} </span>
+                        </Link>
+                        on {post.date}</span>
+                    </div>
                     </div>
                   </div>
                 ))}
