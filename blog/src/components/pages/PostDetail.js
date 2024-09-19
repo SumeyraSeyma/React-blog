@@ -114,7 +114,7 @@ function PostDetail() {
             }
             <div className='max-w-4xl mx-auto p-5'>
               <hr className="my-6" />
-              <h2 className="text-xl font-bold mt-4 mb-2">Suggested Posts</h2>
+              <h2 className="text-xl font-bold mt-4 mb-4">Suggested Posts</h2>
               <div className="flex flex-wrap">
                 {suggestedPosts.map((post, index) => (
                   <div key={index} className="mr-4 mb-4">
