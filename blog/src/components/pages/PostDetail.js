@@ -27,12 +27,24 @@ function PostDetail() {
   }, [id]);
 
   useEffect(() => {
-    console.log(data);
-    if (data) {
-      const filteredPosts = data.filter(post => post.id !== parseInt(id));
-      setSuggestedPosts(filteredPosts);
+    async function fetchSuggestedPosts() {
+      try {
+        const response = await fetch('/blog.json');
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        const json = await response.json();
+        const currentId = parseInt(id);
+        const posts = json.filter((post) => post.id !== currentId);
+        const limitedPosts = posts.slice(0, 2);
+        setSuggestedPosts(limitedPosts);
+      } catch (error) {
+        console.error('There has been a problem with your fetch operation:', error);
+      }
     }
-  }, [data, id]);
+  
+    fetchSuggestedPosts();
+  }, [id]);
 
   return (
     <div>
@@ -78,6 +90,7 @@ function PostDetail() {
             ))  
             }
             <div className='max-w-4xl mx-auto p-5'>
+              <hr className="my-6" />
               <h2 className="text-xl font-bold mt-4 mb-2">Suggested Posts</h2>
               <div className="flex flex-wrap">
                 {suggestedPosts.map((post, index) => (
