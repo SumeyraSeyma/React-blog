@@ -17,7 +17,7 @@ function Header({ categories = [], onSearch, onCategoryChange }) {
   };
 
   return (
-    <header className='sticky top-0 z-10 mx-auto bg-white/75 backdrop-blur-lg dark:bg-zinc-950/75'>
+    <header className='sticky top-0 z-10 mx-auto backdrop-blur-lg bg-zinc-950/75'>
       <div className='mx-auto flex w-full max-w-4xl flex-col items-center justify-between px-4 py-4 md:flex-row lg:px-0'>
         <div className='flex'>
           <FontAwesomeIcon
@@ -38,7 +38,7 @@ function Header({ categories = [], onSearch, onCategoryChange }) {
             placeholder="Search..."
             value={searchTerm}
             onChange={handleSearch}
-            className="mr-4 flex placeholder-gray-200 rounded-full border border-zinc-200 bg-zinc-50 px-3 py-2 dark:border-zinc-700 dark:bg-zinc-900"
+            className="mr-4 flex  rounded-full border   px-3 py-2 border-zinc-700 bg-zinc-900"
           />
         </div>
       </div>
@@ -49,7 +49,7 @@ function Header({ categories = [], onSearch, onCategoryChange }) {
             categories.map((category, index) => (
               <button
                 key={index}
-                className="text-indigo-600 dark:text-indigo-300 hover:underline"
+                className=" text-indigo-300 hover:underline"
                 onClick={() => handleCategoryChange(category)}
               >
                 {category}
