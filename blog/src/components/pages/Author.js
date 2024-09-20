@@ -2,6 +2,8 @@ import React, { useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowRightLong } from '@fortawesome/free-solid-svg-icons'
 
 function Author() {
     const { authorName } = useParams();
@@ -61,6 +63,12 @@ function Author() {
                   </div>
                 ))}
               </div>
+            </div>
+            <div className='mb-4'>
+            <Link to={`/posts/${post.id}`} className="text-indigo-200 hover:text-indigo-400 ">
+                Continue Reading 
+                <FontAwesomeIcon icon={faArrowRightLong} className='ml-1 align-bottom' />
+            </Link>
             </div>
                 </div>
                 ))

@@ -4,16 +4,16 @@ import { faCanadianMapleLeaf } from '@fortawesome/free-brands-svg-icons';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
-function Header({ categories = [], onSearch, onCategoryChange }) {  // Varsayılan olarak boş dizi ekledim
+function Header({ categories = [], onSearch, onCategoryChange }) {  
   const [searchTerm, setSearchTerm] = useState('');
 
   const handleSearch = (event) => {
     setSearchTerm(event.target.value);
-    onSearch(event.target.value);  // Arama işlemi ana bileşene gönderiliyor
+    onSearch(event.target.value);  
   };
 
   const handleCategoryChange = (category) => {
-    onCategoryChange(category);  // Kategori değişimi ana bileşene gönderiliyor
+    onCategoryChange(category);  
   };
 
   return (
@@ -59,8 +59,6 @@ function Header({ categories = [], onSearch, onCategoryChange }) {  // Varsayıl
             <p>No categories available</p>  
           )}
         </div>
-
-        
       </div>
     </header>
   );

@@ -93,5 +93,25 @@
 			"title":"EXPLORING"
 		}
 	]
+	},
+	{
+		"image":"https://cook.blob.core.windows.net/assets/900x600coleslowrecipe.jpg",
+		"userId": 1,
+		"id": 6,
+		"category": "Food",
+		"date":"Jun 19, 2024",
+		"title":"Halloumi Coleslaw Recipe",
+		"author":"Alexander Stone",
+		"authorImage":"https://st4.depositphotos.com/10208782/25036/i/1600/depositphotos_250363866-stock-photo-woman-using-laptop-computer.jpg",
+		"body":"We’re saying it very quietly, so we don’t jinx it … but it feels like it’s getting a bit warmer. Cue barbeque! And what better way to celebrate the start of summer than with a delicious Halloumi Coleslaw recipe?",
+		"article":[
+			{
+				"title":"RECIPES"
+			},
+			{
+				"title":"FOOD"
+			}
+		]
+
 	}
 	]

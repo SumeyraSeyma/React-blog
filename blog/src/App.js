@@ -18,7 +18,7 @@ function App() {
     'Nature',
     'Culture',
     'Design',
-    'Business',
+    'Food',
   ];
 
   return (

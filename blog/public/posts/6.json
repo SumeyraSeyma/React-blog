@@ -1,0 +1,44 @@
+[
+    {
+		"image":"https://cook.blob.core.windows.net/assets/900x600coleslowrecipe.jpg",
+		"userId": 1,
+		"id": 6,
+		"category": "Food",
+		"date":"Jun 19, 2024",
+		"title":"Halloumi Coleslaw Recipe",
+		"author":"Alexander Stone",
+		"authorImage":"https://st4.depositphotos.com/10208782/25036/i/1600/depositphotos_250363866-stock-photo-woman-using-laptop-computer.jpg",
+		"body":"We’re saying it very quietly, so we don’t jinx it … but it feels like it’s getting a bit warmer. Cue barbeque! And what better way to celebrate the start of summer than with a delicious Halloumi Coleslaw recipe?",
+		"article":[
+			{
+				"title":"RECIPES"
+			},
+			{
+				"title":"FOOD"
+			}
+		],
+        "detail":[
+            {
+                "title":"Halloumi Coleslaw Recipe",
+                "body":"This recipe is a real crowd-pleaser, combining the salty, squeaky goodness of halloumi with the fresh, crunchy taste of coleslaw. It’s the perfect side dish for any summer gathering, whether you’re hosting a BBQ or just enjoying a picnic in the park.\n\nThe key to this recipe is the halloumi, a semi-hard cheese that’s popular in Mediterranean cuisine. When grilled, halloumi takes on a deliciously crispy texture and a rich, savory flavor that pairs perfectly with the tangy coleslaw. And with just a few simple ingredients, this recipe is quick and easy to make, so you can spend less time in the kitchen and more time enjoying the sunshine.\n\nSo why not give this Halloumi Coleslaw recipe a try? It’s sure to be a hit with your friends and family, and it’s a great way to kick off the summer season in style!"
+            },
+            {
+                "title":"For the coleslaw:",
+                "body":"- 1/2 small white cabbage, finely shredded\n\n- 1 large carrot, grated\n\n- 1/2 red onion, finely sliced\n\n- 2 tbsp mayonnaise\n\n- 1 tbsp white wine vinegar\n\n- 1 tsp Dijon mustard\n\n- Salt and pepper, to taste"
+            },
+            {
+                "title":"For the halloumi:",
+                "body":"- 1 block halloumi cheese, sliced\n\n- 1 tbsp olive oil\n\n- 1/2 lemon, juiced\n\n- Fresh parsley, chopped, to garnish"
+            },
+            {
+                "title":"For the coleslaw:",
+                "body":"1. In a large bowl, combine the shredded cabbage, grated carrot, and sliced red onion.\n\n2. In a separate bowl, whisk together the mayonnaise, white wine vinegar, Dijon mustard, salt, and pepper.\n\n3. Pour the dressing over the cabbage mixture and toss to combine.\n\n4. Cover and refrigerate for at least 30 minutes before serving."
+            },
+            {
+                "title":"For the halloumi:",
+                "body":"1. Heat a grill pan over medium-high heat.\n\n2. Brush the halloumi slices with olive oil and grill for 2-3 minutes on each side, until golden brown.\n\n3. Remove from the pan and squeeze the lemon juice over the top.\n\n4. Serve the grilled halloumi with the coleslaw, garnished with fresh parsley."
+            }
+        ]
+
+	}
+]
