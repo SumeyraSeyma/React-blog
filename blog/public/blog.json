@@ -7,6 +7,7 @@
 	"date":"May 30, 2023",
 	"title": "Exploring the World's Natural Wonders: A Nature Lover's Journey",
 	"author": "John Doe",
+	"authorBio":"John Doe is a nature writer and photographer with a deep passion for capturing the beauty of the natural world. His blog is a visual journey through some of the most breathtaking landscapes on Earth, from serene forests to rugged mountains. Through his lens, John aims to raise awareness about the importance of conservation and the need to protect our planet’s fragile ecosystems. His storytelling combines a love for adventure with a commitment to environmental stewardship, encouraging readers to explore, appreciate, and take action to preserve the wild places around them.",
 	"authorImage": "https://imgix.cosmicjs.com/9a0a85b0-23f5-11e7-875c-3f5dc9c15c2b-male.jpg?w=100&auto=format,compression",
 	"body": "As someone who loves nature, there's nothing quite like the thrill of exploring the world's most beautiful landscapes. From snow-capped mountains to crystal-clear waters, there's no shortage of natural wonders to discover. So pack your bags, grab your hiking boots, and let's take a journey around the globe to explore some of the most breathtaking natural sights on earth.",
 	"article":[
@@ -26,6 +27,7 @@
 	"date":"Apr 27, 2023",
 	"title": "Exploring the Wonders of Planet Earth",
 	"author": "Jane Doe",
+	"authorBio":"Jane Doe is a nature enthusiast and writer, dedicated to exploring and preserving the natural wonders of the world. With a background in environmental science, Jane combines her passion for the environment with her love for storytelling, creating engaging content that inspires others to reconnect with nature. Her blog features in-depth explorations of wildlife, ecosystems, and the beauty of the great outdoors. Whether it's hiking through forests or observing wildlife, Jane is always on a quest to discover and share the hidden gems of the natural world.",
 	"authorImage":"https://imgix.cosmicjs.com/99f48cb0-23f5-11e7-875c-3f5dc9c15c2b-female.jpg?w=100&auto=format,compression",
 	"body": "Planet Earth is a magnificent place, full of wonders and mysteries waiting to be discovered. From the depths of the oceans to the highest peaks of the mountains, there is always something new and exciting to explore. In this blog post, we'll take a closer look at some of the most fascinating aspects of our planet.",
 	"article":[
@@ -45,6 +47,7 @@
 	"date":"Mar 15, 2023",
 	"title": "The Importance of Biodiversity on Planet Earth",
 	"author": "Jane Doe",
+	"authorBio":"Jane Doe is a nature enthusiast and writer, dedicated to exploring and preserving the natural wonders of the world. With a background in environmental science, Jane combines her passion for the environment with her love for storytelling, creating engaging content that inspires others to reconnect with nature. Her blog features in-depth explorations of wildlife, ecosystems, and the beauty of the great outdoors. Whether it's hiking through forests or observing wildlife, Jane is always on a quest to discover and share the hidden gems of the natural world.",
 	"authorImage":"https://imgix.cosmicjs.com/99f48cb0-23f5-11e7-875c-3f5dc9c15c2b-female.jpg?w=100&auto=format,compression",
 	"body": "Biodiversity refers to the variety of life on Earth, including all of the different species of plants, animals, and microorganisms. It is one of the most important aspects of our planet, and it plays a crucial role in maintaining the health and balance of ecosystems. In this blog post, we'll take a closer look at the importance of biodiversity on planet Earth.",
 	"article":[
@@ -64,6 +67,7 @@
 	"date":"Feb 3, 2023",
 	"title": "Earth: The Ultimate Playground",
 	"author": "Jane Doe",
+	"authorBio":"Jane Doe is a nature enthusiast and writer, dedicated to exploring and preserving the natural wonders of the world. With a background in environmental science, Jane combines her passion for the environment with her love for storytelling, creating engaging content that inspires others to reconnect with nature. Her blog features in-depth explorations of wildlife, ecosystems, and the beauty of the great outdoors. Whether it's hiking through forests or observing wildlife, Jane is always on a quest to discover and share the hidden gems of the natural world.",
 	"authorImage":"https://imgix.cosmicjs.com/99f48cb0-23f5-11e7-875c-3f5dc9c15c2b-female.jpg?w=100&auto=format,compression",
 	"body": "Earth is a remarkable planet, full of natural wonders and opportunities for adventure. From the highest mountains to the deepest oceans, there is no shortage of places to explore and activities to engage in.",
 	"article":[
@@ -83,6 +87,7 @@
 	"date":"Dec 5, 2022",
 	"title": "Exploring the Earth: Adventures and Wonders from a Blogger's Point of View",
 	"author": "John Doe",
+	"authorBio":"John Doe is a nature writer and photographer with a deep passion for capturing the beauty of the natural world. His blog is a visual journey through some of the most breathtaking landscapes on Earth, from serene forests to rugged mountains. Through his lens, John aims to raise awareness about the importance of conservation and the need to protect our planet’s fragile ecosystems. His storytelling combines a love for adventure with a commitment to environmental stewardship, encouraging readers to explore, appreciate, and take action to preserve the wild places around them.",
 	"authorImage": "https://imgix.cosmicjs.com/9a0a85b0-23f5-11e7-875c-3f5dc9c15c2b-male.jpg?w=100&auto=format,compression",
 	"body": "Welcome to my travel blog, where I share my adventures exploring the beautiful planet we call home. Today, I want to talk about the incredible experience of exploring the Earth from a blogger's point of view.",
 	"article":[
@@ -102,6 +107,7 @@
 		"date":"Jun 19, 2024",
 		"title":"Halloumi Coleslaw Recipe",
 		"author":"Alexander Stone",
+		"authorBio":"Alexander Stone is a passionate food blogger and home chef who loves exploring diverse culinary traditions from around the world. With a deep appreciation for fresh ingredients and bold flavors, Alexander shares her kitchen adventures through recipes that are both delicious and approachable. From gourmet meals to comfort food, her blog is a celebration of the joy that comes with cooking and sharing food with loved ones. Alexander's mission is to inspire others to find creativity and confidence in the kitchen, one recipe at a time.",
 		"authorImage":"https://st4.depositphotos.com/10208782/25036/i/1600/depositphotos_250363866-stock-photo-woman-using-laptop-computer.jpg",
 		"body":"We’re saying it very quietly, so we don’t jinx it … but it feels like it’s getting a bit warmer. Cue barbeque! And what better way to celebrate the start of summer than with a delicious Halloumi Coleslaw recipe?",
 		"article":[
@@ -122,6 +128,7 @@
 		"date":"Aug 21, 2024",
 		"title":"Moroccan Chicken Tagine Recipe",
 		"author":"Alexander Stone",
+		"authorBio":"Alexander Stone is a passionate food blogger and home chef who loves exploring diverse culinary traditions from around the world. With a deep appreciation for fresh ingredients and bold flavors, Alexander shares her kitchen adventures through recipes that are both delicious and approachable. From gourmet meals to comfort food, her blog is a celebration of the joy that comes with cooking and sharing food with loved ones. Alexander's mission is to inspire others to find creativity and confidence in the kitchen, one recipe at a time.",
 		"authorImage":"https://st4.depositphotos.com/10208782/25036/i/1600/depositphotos_250363866-stock-photo-woman-using-laptop-computer.jpg",
 		"body":"If you've got a little bit of time on your hands at the weekend, try making your own Moroccan flatbreads. They're a great accompaniment to tagines and dips, and they're much easier to make than you might think. This recipe makes 8 flatbreads, so you can freeze any leftovers for another day.",
 		"article":[
@@ -141,6 +148,7 @@
 		"date":"Jul 1, 2024",
 		"title":"&Tradition's Branding and UI UX: Where Heritage Meets Modernity",
 		"author":"Life Spencer",
+		"authorBio":"Life Spencer is a creative graphic designer and design blogger with a focus on modern aesthetics and user-centered design. With over a decade of experience in the design industry, Life has worked with top brands, helping them build strong visual identities and impactful digital experiences. On their blog, Life explores various design topics such as minimalist design, typography, UX/UI best practices, and the power of visual storytelling. Passionate about the intersection of creativity and functionality, Life Spencer aims to inspire other designers to push the boundaries of innovation.",
 		"authorImage":"https://media.istockphoto.com/id/682869634/tr/foto%C4%9Fraf/d%C3%BC%C5%9F%C3%BCnceli-erkek-yazar.jpg?s=1024x1024&w=is&k=20&c=Uhrn5ciM0q-CIZewEBIIbobVg89iC3qrB4KaBJ0MEP8=",
 		"body":"&Tradition's design seamlessly blends classic craftsmanship with modern aesthetics. Explore the branding and UI UX design concept that captures the essence of this Danish design company.",
 		"article":[
@@ -161,6 +169,7 @@
 		"date":"Jun 15, 2024",
 		"title":"Dunkirk's Hôtel Cargo: A Nautical Branding Voyage by Midi:Quinze",
 		"author":"Life Spencer",
+		"authorBio":"Life Spencer is a creative graphic designer and design blogger with a focus on modern aesthetics and user-centered design. With over a decade of experience in the design industry, Life has worked with top brands, helping them build strong visual identities and impactful digital experiences. On their blog, Life explores various design topics such as minimalist design, typography, UX/UI best practices, and the power of visual storytelling. Passionate about the intersection of creativity and functionality, Life Spencer aims to inspire other designers to push the boundaries of innovation.",
 		"authorImage":"https://media.istockphoto.com/id/682869634/tr/foto%C4%9Fraf/d%C3%BC%C5%9F%C3%BCnceli-erkek-yazar.jpg?s=1024x1024&w=is&k=20&c=Uhrn5ciM0q-CIZewEBIIbobVg89iC3qrB4KaBJ0MEP8=",
 		"body":"Hôtel Cargo, a boutique hotel in Dunkirk, France, offers a unique nautical experience that transports guests to the golden age of transatlantic travel. Midi:Quinze's branding concept for Hôtel Cargo captures the essence of this maritime journey, blending vintage charm with modern elegance.",
 		"article":[

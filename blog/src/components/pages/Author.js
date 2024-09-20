@@ -31,6 +31,13 @@ function Author() {
     
       return (
         <div className='mx-auto w-full max-w-3xl flex-col px-4 lg:px-0'>
+          <div className="flex items-center space-x-4 mt-8 mb-8">
+            <img src={posts[0]?.authorImage} alt="Author" className="h-20 w-20 rounded-full" />
+            <div>
+              <h1 className="text-3xl font-bold">{authorName}</h1>
+              <p className="text-zinc-500 dark:text-zinc-400">{posts[0]?.authorBio}</p>
+            </div>
+          </div>
           <h1 className='my-4 text-4xl font-bold leading-tight tracking-tight text-zinc-700 dark:text-zinc-300'>Posts by {authorName} </h1>
           {posts.length > 0 ? (
             posts.map((post, index) => (
