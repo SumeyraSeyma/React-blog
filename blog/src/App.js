@@ -16,7 +16,7 @@ function App() {
     'All',
     'Nature',
     'Food',
-    'Books',
+    'Design',
   ];
 
   return (

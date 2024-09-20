@@ -132,5 +132,25 @@
 				"title":"FOOD"
 			}
 		]
+	},
+	{
+		"image":"https://abduzeedo.com/sites/default/files/styles/max_2600x2600/public/originals/hero_tradition.png.webp?itok=m7-IeK8K",
+		"userId": 1,
+		"id": 8,
+		"category": "Design",
+		"date":"Jul 1, 2024",
+		"title":"&Tradition's Branding and UI UX: Where Heritage Meets Modernity",
+		"author":"Life Spencer",
+		"authorImage":"https://media.istockphoto.com/id/682869634/tr/foto%C4%9Fraf/d%C3%BC%C5%9F%C3%BCnceli-erkek-yazar.jpg?s=1024x1024&w=is&k=20&c=Uhrn5ciM0q-CIZewEBIIbobVg89iC3qrB4KaBJ0MEP8=",
+		"body":"&Tradition's design seamlessly blends classic craftsmanship with modern aesthetics. Explore the branding and UI UX design concept that captures the essence of this Danish design company.",
+		"article":[
+			{
+				"title":"BRANDING"
+			},
+			{
+				"title":"UI/UX"
+			}
+		]
+
 	}
 	]
