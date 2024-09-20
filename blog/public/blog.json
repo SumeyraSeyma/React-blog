@@ -152,5 +152,24 @@
 			}
 		]
 
+	},
+	{
+		"image":"https://abduzeedo.com/sites/default/files/styles/max_2600x2600/public/originals/hero_cargo.png.webp?itok=xmaiYcKG",
+		"userId": 1,
+		"id": 9,
+		"category": "Design",
+		"date":"Jun 15, 2024",
+		"title":"Dunkirk's Hôtel Cargo: A Nautical Branding Voyage by Midi:Quinze",
+		"author":"Life Spencer",
+		"authorImage":"https://media.istockphoto.com/id/682869634/tr/foto%C4%9Fraf/d%C3%BC%C5%9F%C3%BCnceli-erkek-yazar.jpg?s=1024x1024&w=is&k=20&c=Uhrn5ciM0q-CIZewEBIIbobVg89iC3qrB4KaBJ0MEP8=",
+		"body":"Hôtel Cargo, a boutique hotel in Dunkirk, France, offers a unique nautical experience that transports guests to the golden age of transatlantic travel. Midi:Quinze's branding concept for Hôtel Cargo captures the essence of this maritime journey, blending vintage charm with modern elegance.",
+		"article":[
+			{
+				"title":"BRANDING"
+			},
+			{
+				"title":"DESIGN"
+			}
+		]
 	}
 	]
