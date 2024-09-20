@@ -113,5 +113,24 @@
 			}
 		]
 
+	},
+	{
+		"image":"https://cook.blob.core.windows.net/assets/moroccanblog1.jpg",
+		"userId": 1,
+		"id": 7,
+		"category": "Food",
+		"date":"Aug 21, 2024",
+		"title":"Moroccan Chicken Tagine Recipe",
+		"author":"Alexander Stone",
+		"authorImage":"https://st4.depositphotos.com/10208782/25036/i/1600/depositphotos_250363866-stock-photo-woman-using-laptop-computer.jpg",
+		"body":"If you've got a little bit of time on your hands at the weekend, try making your own Moroccan flatbreads. They're a great accompaniment to tagines and dips, and they're much easier to make than you might think. This recipe makes 8 flatbreads, so you can freeze any leftovers for another day.",
+		"article":[
+			{
+				"title":"RECIPES"
+			},
+			{
+				"title":"FOOD"
+			}
+		]
 	}
 	]

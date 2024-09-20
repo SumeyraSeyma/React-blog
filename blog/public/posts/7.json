@@ -1,0 +1,32 @@
+[
+    {
+		"image":"https://cook.blob.core.windows.net/assets/moroccanblog1.jpg",
+		"userId": 1,
+		"id": 7,
+		"category": "Food",
+		"date":"Aug 21, 2024",
+		"title":"Moroccan Flatbread Recipe",
+		"author":"Alexander Stone",
+		"authorImage":"https://st4.depositphotos.com/10208782/25036/i/1600/depositphotos_250363866-stock-photo-woman-using-laptop-computer.jpg",
+		"body":"If you've got a little bit of time on your hands at the weekend, try making your own Moroccan flatbreads. They're a great accompaniment to tagines and dips, and they're much easier to make than you might think. This recipe makes 8 flatbreads, so you can freeze any leftovers for another day.",
+		"article":[
+			{
+				"title":"RECIPES"
+			},
+			{
+				"title":"FOOD"
+			}
+		],
+        "detail":[
+            {
+                "title":"Ingredients: makes 10",
+                "body":"- 330g strong bread flour\n\n- 150g wholemeal flour\n\n- 240g fine semolina\n\n- 1 tbsp instant yeast\n\n- 2 tbsp sugar\n\n- 2 tsp salt\n\n- 3 tbsp olive oil\n\n- 440g warm water (not hot)"
+            },
+            {
+                "title":"Method",
+                "body":"1. In a bowl, mix together the flours (incl. semolina), yeast, sugar and salt. Add the oil and water to form a dough.\n\n2. Tip out the dough and knead by hand on a floured surface until smooth, about 5-10 mins.\n\n3. Divide the dough into 10 pieces and roll into balls. Leave to rest, covered with cling film or a floured tea towel until almost doubled in size.\n\n4. Dust your worktop with semolina and roll each ball into a 10cm circle. Leave to rise until light and puffy, about 30 mins in a warm room.\n\n5. Heat a large pan over a medium heat for several minutes to get it really hot. Gently place the dough in the pan and cook for about 15-20 seconds, then flip over. Keep turning every 20-30 seconds until cooked - when the bread has puffed up and is golden brown on both sides.\n\n6. Cook the rest of the dough in batches and serve warm.\n\n Enjoy!"
+            }
+        ]
+
+	}
+]

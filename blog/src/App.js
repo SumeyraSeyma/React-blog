@@ -14,11 +14,9 @@ function App() {
 
   const categories = [
     'All',
-    'Technology',
     'Nature',
-    'Culture',
-    'Design',
     'Food',
+    'Books',
   ];
 
   return (
