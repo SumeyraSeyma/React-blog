@@ -38,7 +38,7 @@ function Header({ categories = [], onSearch, onCategoryChange }) {
             placeholder="Search..."
             value={searchTerm}
             onChange={handleSearch}
-            className="mr-4 flex rounded-full border border-zinc-200 bg-zinc-50 px-3 py-2 dark:border-zinc-700 dark:bg-zinc-900"
+            className="mr-4 flex placeholder-gray-200 rounded-full border border-zinc-200 bg-zinc-50 px-3 py-2 dark:border-zinc-700 dark:bg-zinc-900"
           />
         </div>
       </div>
