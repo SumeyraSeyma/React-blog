@@ -11,6 +11,9 @@ function Blog({ searchTerm, selectedCategory }) {
   const [isLoading, setIsLoading] = useState(true);
   const [isSpinning, setIsSpinning] = useState(false);
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [searchTerm, selectedCategory]);
 
   useEffect(() => {
     async function fetchData() {
