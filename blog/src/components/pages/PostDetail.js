@@ -4,17 +4,28 @@ import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeftLong } from '@fortawesome/free-solid-svg-icons';
 import { useLocation } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 function PostDetail() {
   const [data, setData] = useState(null);
   const { id } = useParams();
   const [suggestedPosts, setSuggestedPosts] = useState([]);
   const [titLimit, setTitLimit] = useState(36);
-  const {pathname} = useLocation();
+
+  let navigate = useNavigate();
+  const location = useLocation();
+
+
+    const handleGoBack =() => {
+      navigate(-1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+      }, 40);
+    }
 
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, [pathname]);
+  }, [location.pathname]);
   
 
   const truncateText = (text, limit) => {
@@ -80,11 +91,11 @@ function PostDetail() {
               className="mb-5 h-[720px] w-full bg-no-repeat object-cover object-center"
             />
             <div className="max-w-4xl mx-auto p-5">
-              <div className='flex'>
-                <Link to={"/"}>
-                <FontAwesomeIcon icon={faArrowLeftLong} className='mr-4 flex rounded-full border border-zinc-200 bg-zinc-50 px-3 py-2 dark:border-zinc-700 dark:bg-zinc-900' />
-                </Link>
-                <h1 className="text-3xl mb-2 font-bold text-start">{post.title}</h1>
+              <div className='flex items-center space-x-4 p-4'>
+                <button onClick={handleGoBack} className='flex items-center justify-center rounded-full border border-zinc-200 bg-zinc-50 px-3 py-2 hover:bg-zinc-200 dark:border-zinc-700 dark:bg-zinc-900 transition duration-300 ease-in-out'>
+                  <FontAwesomeIcon icon={faArrowLeftLong} className='text-white' />
+                    </button>
+                    <h1 className="text-3xl font-bold text-white">{post.title}</h1>
               </div>
               <div className="flex items-center justify-between mt-4">
                 <div className="flex items-center space-x-2 text-sm">
